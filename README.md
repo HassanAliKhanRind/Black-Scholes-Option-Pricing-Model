@@ -57,4 +57,12 @@ P=Ke−rTN(−d2​)−SN(−d1​)
 Where:
 d1​=ln(S/K)+(r+0.5σ^2)T/σT
 ​d2=d1​−σT
+
+Approach: Implemented the Black–Scholes formula in Python using real market parameters.
+
+Inputs Used: Stock price, strike price, time to maturity, risk-free rate, and volatility.
+
+Results: Call option price = 5.63, Put option price = 9.47.
+
+Conclusion: The model is effective for option valuation and financial decision-making.
 ​​
