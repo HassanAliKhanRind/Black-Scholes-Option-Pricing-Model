@@ -47,128 +47,14 @@ Time to Maturity
 Normal Distribution (CDF)
 
 🧮 Black–Scholes Formula
+
 Call Option:
-𝐶
-=
-𝑆
-𝑁
-(
-𝑑
-1
-)
-−
-𝐾
-𝑒
-−
-𝑟
-𝑇
-𝑁
-(
-𝑑
-2
-)
-C=SN(d
-1
-	​
+C=SN(d1​)−Ke−rTN(d2​)
 
-)−Ke
-−rT
-N(d
-2
-	​
-
-)
 Put Option:
-𝑃
-=
-𝐾
-𝑒
-−
-𝑟
-𝑇
-𝑁
-(
-−
-𝑑
-2
-)
-−
-𝑆
-𝑁
-(
-−
-𝑑
-1
-)
-P=Ke
-−rT
-N(−d
-2
-	​
-
-)−SN(−d
-1
-	​
-
-)
+P=Ke−rTN(−d2​)−SN(−d1​)
 
 Where:
-
-𝑑
-1
-=
-ln
-⁡
-(
-𝑆
-/
-𝐾
-)
-+
-(
-𝑟
-+
-0.5
-𝜎
-2
-)
-𝑇
-𝜎
-𝑇
-,
-𝑑
-2
-=
-𝑑
-1
-−
-𝜎
-𝑇
-d
-1
-	​
-
-=
-σ
-T
-	​
-
-ln(S/K)+(r+0.5σ
-2
-)T
-	​
-
-,d
-2
-	​
-
-=d
-1
-	​
-
-−σ
-T
-	​
-
-	​
-
+d1​=ln(S/K)+(r+0.5σ^2)T/σT
+​d2=d1​−σT
+​​
