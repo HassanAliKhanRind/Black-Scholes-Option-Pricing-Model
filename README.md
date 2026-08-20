@@ -1,4 +1,4 @@
-Black-Scholes Option Pricing Model
+# Black-Scholes Option Pricing Model
 
 A Python tool to calculate the fair price of Call and Put options using the Black-Scholes model.
 
